@@ -1,0 +1,9 @@
+-- Create a table to store the flower counter for each user (or globally)
+CREATE TABLE flower_counter (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id VARCHAR(255), -- or remove if global
+    count INT NOT NULL DEFAULT 50
+);
+
+INSERT INTO flower_counter (count) VALUES (50);
+
