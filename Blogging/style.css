@@ -255,4 +255,21 @@ footer {
         28px 28px 0 0 #f7d6f7;
 }
 /* ...existing code... */
+.reset-btn {
+    background: #fff;
+    color: #4e7c4e;
+    border: 2px solid #b6e2b6;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    margin-left: 1rem;
+}
+
+.reset-btn:hover {
+    background: #eaffea;
+    color: #2e5c2e;
+}
 
